@@ -1,0 +1,138 @@
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+.header {
+    background: rgba(255, 113, 67, 0.27);
+    padding: 50px;
+
+
+}
+.header_flex, .footer_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    max-width: 1070px;
+    margin: 0 auto;
+}
+
+.nav_li {
+    display: inline-block;
+}
+
+.nav_li:not(:first-of-type) {
+    margin-left: 49px;
+}
+
+.nav_link {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.468947px;
+    color: #696871;
+    text-decoration: none;
+}
+
+.nav_link:hover {
+    color: black;
+    transition: 300ms;
+}
+
+.button {
+    width: 212.39px;
+    height: 60px;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.531474px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #FFFFFF
+}
+
+.button_orange {
+    background: #FF7143;
+}
+
+.button_orange:hover {
+    background: #c96443;
+    transition: 500ms;
+}
+
+.about_title {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 77px;
+    letter-spacing: -2.50105px;
+    color: #19191B;
+    max-width: 467px;
+    margin-bottom: 30px;
+}
+
+.about_text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.625263px;
+    max-width: 410px;
+    margin-bottom: 50px;
+}
+.about{
+    margin: 104px auto 85px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.button_violet {
+    background: #5454D4;
+}
+
+.button_transparent {
+    background: none;
+    color: #5454D4;
+    border: 1px solid #5454D4;
+    margin-left: 35px;
+}
+
+.button_violet:hover {
+    background: #3636a1;
+    transition: 500ms;
+}
+
+.button_transparent:hover {
+    background: #e9e7e7;
+    transition: 500ms;
+}
+
+.footer {
+    background: rgba(255, 113, 67, 0.27);
+    padding: 50px;
+}
+
+.nav_li_footer {
+    display: inline-block;
+}
+
+.nav_li_footer:not(:first-of-type) {
+    margin-left: 49px;
+}
+
+.nav_link_footer {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.468947px;
+    color: #696871;
+    text-decoration: none;
+}
+
+.nav_link_footer:hover {
+    color: black;
+    transition: 300ms;
+}
